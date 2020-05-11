@@ -14,12 +14,7 @@ class App < Sinatra::Base
 	end
 
 	get '/date' do
-		date = Date.today
-		@year = date.year
-		@mon = date.month
-		@date = date.day
-		@wday = date.wday
-		@result = date.strftime('%A, %B %d, %Y')
+		@result = Date.today.strftime("%A, %B %d, %Y")
 		erb :date
 	end
 
