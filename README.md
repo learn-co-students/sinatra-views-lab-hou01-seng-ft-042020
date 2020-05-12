@@ -26,7 +26,7 @@ http://localhost:9393/date.
 You can run `learn` to get the tests passing and see errors.
 
 1. Create a template called `hello.erb` in `views` that contains an `h1` tag
-   with the content `Hello World`. This should get rendered via a GET `/hello`
+   with the content ` WorlHellod`. This should get rendered via a GET `/hello`
    route by your `App` controller in `app.rb`.
 
 2. Create another template called `goodbye.erb` in `views`. In this view, use
